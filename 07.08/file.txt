@@ -1,0 +1,16 @@
+Exercícios de Programação de Computadores I
+1)	Faça um algoritmo que dado um número, calcule e mostre o seu dobro;
+
+2)	Faça um algoritmo que dado um número, calcule e mostre o valor do número elevado ao quadrado;
+
+
+3)	Faça um algoritmo que dado 5 números, calcule e mostre a média;
+
+4)	Faça um algoritmo que dado 4 números, calcule e mostre a soma dos três primeiros números multiplicado pelo último número;
+
+5)	Faça um algoritmo que dado um número, calcule e mostre o equivalente a 30% dele.
+
+
+6)	Um vendedor recebe, por mês, um salário fixo e mais um adicional de 20% do valor das vendas que ele efetuou. Faça um algoritmo que dado o salário fixo e o valor de venda do mês, calcule e mostre o salário final do vendedor. 
+
+7)	Um banco concede um valor para empréstimo de até 60% do saldo médio anual do cliente. Faça um algoritmo que dado o saldo médio do cliente, calcule e mostre o valor disponível para empréstimo.
