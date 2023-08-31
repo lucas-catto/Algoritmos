@@ -1,0 +1,22 @@
+<html>
+    <script>
+        // 5) Elabore um algoritmo que leia 3 valores inteiros e mostre o maior valor entre eles.
+
+        var vetor  = [];
+        
+        for (let i = 0; i < 3; i++) {
+            vetor[i] = parseFloat(prompt("Informe o " + (i+1) + "º número: "));
+        }
+
+        var number = 0
+
+        for (let i = 0; i < vetor.length; i++) {
+            if(vetor[i] > number) {
+                number = vetor[i];
+            }
+        }
+
+        alert("O maior valor informado foi: " + number);
+
+    </script>
+</html>

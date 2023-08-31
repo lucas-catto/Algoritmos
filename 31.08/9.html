@@ -1,0 +1,12 @@
+<html>
+    <script>
+        // 9) Elabore um algoritme que leia o ano de nascimento do usuário e informe se ele pode ou não votar. Faça uma pesquisa para descobrir os limites de idades em que o voto deve ser proibido, obrigatório ou facultativo.
+
+        var age = parseInt(prompt("Informe sua idade: "));
+
+        if      ((age >= 16) && (age < 18) || (age >= 70)) { alert("Voto facultativo."); }
+        else if ((age >= 18) && (age <  70))               { alert("Voto Obrigatório."); }
+        else                                               { alert("Voto proibido.");    }
+
+    </script>
+</html>
