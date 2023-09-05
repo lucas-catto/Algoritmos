@@ -7,7 +7,16 @@
         // De 401 a 600 --> 30% do valor do saldo médio
         // Acima de 601 --> 40% do valor do saldo médio
 
-        var salary = parseFloat(prompt("Informe seu saldo anual: "));
+        var salary  = parseFloat(prompt("Informe seu saldo anual: "));
+        var percent = salary / 100;
+
+        if      (salary >= 0   && salary <= 200) { alert("Nenhum crédito.");                                             }
+        else if (salary >= 201 && salary <= 400) { alert("20% do valor do saldo médio: R$" + (percent * 20).toFixed(2)); }
+        else if (salary >= 401 && salary <= 600) { alert("30% do valor do saldo médio: R$" + (percent * 30).toFixed(2)); }
+        else if (salary >= 601)                  { alert("40% do valor do saldo médio: R$" + (percent * 40).toFixed(2)); }
+        else {
+            alert("Valor informado é inválido!");
+        }
 
     </script>
 </html>

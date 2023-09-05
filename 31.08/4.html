@@ -2,5 +2,18 @@
     <script>
         // 4) O sistema de avaliação de determinada disciplina, é composto por três provas. A primeira prova tem peso 4, a Segunda tem peso 3 e a terceira prova tem peso 3. Faça um algoritmo para calcular a média final de um aluno desta disciplina. Caso a média seja maior ou igual a 7 mostre APROVADO, se a média for entre 5 e 7, mostre em RECUPERAÇÃO, e se for menor do que 5 mostre REPROVADO. 
 
+        var test1 = parseFloat(prompt("Informe a nota da 1ª prova: "));
+        var test2 = parseFloat(prompt("Informe a nota da 2ª prova: "));
+        var test3 = parseFloat(prompt("Informe a nota da 3ª prova: "));
+        
+        var media = ((test1 * 4) + (test2 * 3) + (test3 * 3)) / 10;
+
+        if      (media >= 7)             { alert("Aprovado!");   }
+        else if (media > 5 && media < 7) { alert("Recuperação"); }
+        else if (media < 5)              { alert("Reprovado");   }
+        else {
+            alert("Something is wrong!");
+        }
+
     </script>
 </html>

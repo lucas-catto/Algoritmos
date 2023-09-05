@@ -2,6 +2,18 @@
     <script>
         // 7) Desenvolva um algoritmo que leia 3 valores inteiros e os apresente em ordem decrescente
 
+        var number1 = parseInt(prompt("Informe um número: "));
+        var number2 = parseInt(prompt("Informe um número: "));
+        var number3 = parseInt(prompt("Informe um número: "));
+
+        // number1 number2 number3
+
+        if      ((number1 > number2 && number1 > number3) && number3 > number2) { alert("Orderm: " + number1 + " - " + number3 + " - " + number2); }
+        else if ((number1 > number3 && number1 > number2) && number2 > number3) { alert("Orderm: " + number1 + " - " + number2 + " - " + number3); }
+        else if ((number2 > number1 && number2 > number3) && number1 > number3) { alert("Orderm: " + number2 + " - " + number1 + " - " + number3); }
+        else if ((number2 > number3 && number2 > number1) && number3 > number1) { alert("Orderm: " + number2 + " - " + number3 + " - " + number1); }
+        else if ((number3 > number2 && number3 > number1) && number2 > number1) { alert("Orderm: " + number3 + " - " + number2 + " - " + number1); }
+        else if ((number3 > number1 && number3 > number2) && number1 > number2) { alert("Orderm: " + number3 + " - " + number1 + " - " + number2); }
 
     </script>
 </html>
