@@ -1,0 +1,17 @@
+<html>
+    <script>
+        // M-matutino ou V-vespertino ou N-noturno. Imprima a mensagem “Bom dia!” ou  “Boa Noite” ou “Valor inválido”, conforme o caso. 
+
+        var option = prompt("M -> Matutino\nV -> Vespertino\nN -> Noturno\nEm que turno você estuda?");
+
+        option = option.toUpperCase();
+
+        if      (option == "M") { alert("Bom Dia");   }
+        else if (option == "V") { alert("Boa Tarde"); }
+        else if (option == "N") { alert("Boa Noite"); }
+        else {
+            alert("Algo está errado.");
+        }
+
+    </script>
+</html>

@@ -1,0 +1,15 @@
+<html>
+    <script>
+
+        var salary     = parseFloat(prompt("Informe o salário R$"));
+        var totalSpent = parseFloat(prompt("Informe o total gasto R$"));
+
+        if      (salary > totalSpent)  { alert("Gastos dentro do orçamento. Valor restante: R$"         + (salary - totalSpent)); }
+        else if (salary < totalSpent)  { alert("Orçamento estourado. Déficit: R$"                       + (salary - totalSpent)); }
+        else if (salary == totalSpent) { alert("Total gasto e orçamento são iguais. Valor restante: R$" + (salary - totalSpent)); }
+        else {
+            alert("Algo está errado.");
+        }
+
+    </script>
+</html>

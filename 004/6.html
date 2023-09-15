@@ -1,0 +1,17 @@
+<html>
+    <script>
+        var boll1     = prompt("Nome do Time 1:");
+        var boll2     = prompt("Nome do Time 2:");
+
+        var boll1_gol = parseInt(prompt("Informe a quantidade de gols marcada por " + boll1 + ":"));
+        var boll2_gol = parseInt(prompt("Informe a quantidade de gols marcada por " + boll2 + ":"));
+
+        if      (boll1_gol > boll2_gol)  { alert(boll1 + " Venceu!"); }
+        else if (boll1_gol < boll2_gol)  { alert(boll2 + " Venceu!"); }
+        else if (boll1_gol == boll2_gol) { alert("Empate!");          }
+        else {
+            alert("Algo está errado.");
+        }
+
+    </script>
+</html>

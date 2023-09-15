@@ -1,0 +1,42 @@
+<html>
+    <script>
+
+        var type = prompt("Álcool -> A\nGasolina -> G\nTipo de Combustível: ");
+        type = type.toUpperCase();
+
+        var totalLiters = 0;
+        var price       = 0;
+        var totalPrice  = 0;
+
+        if (type == "A" || type == "G") {
+
+            price          = parseFloat(prompt("Informe o valor por litro:"));
+            totalLiters    = parseFloat(prompt("Informe a quantidade de Litros:"));
+
+            if (type == "A") {
+                if   (totalLiters < 20) {
+                    totalPrice = ((price*totalLiters) - ((price*totalLiters) * 0.03));
+                    alert("Tipo de Combustível: " + type + "\nValor por Litro: " + price + "\nQuantidade de Combustível: " + totalLiters + "\nTotal Final: "+ totalPrice);
+                }
+                else {
+                    totalPrice = ((price*totalLiters) - ((price*totalLiters) * 0.05));
+                    alert("Tipo de Combustível: " + type + "\nValor por Litro: " + price + "\nQuantidade de Combustível: " + totalLiters + "\nTotal Final: "+ totalPrice);
+                }
+            }
+            else {
+                if   (totalLiters < 20) {
+                    totalPrice = ((price*totalLiters) - ((price*totalLiters) * 0.04));
+                    alert("Tipo de Combustível: " + type + "\nValor por Litro: " + price + "\nQuantidade de Combustível: " + totalLiters + "\nTotal Final: "+ totalPrice);
+                }
+                else {
+                    totalPrice = ((price*totalLiters) - ((price*totalLiters) * 0.06));
+                    alert("Tipo de Combustível: " + type + "\nValor por Litro: " + price + "\nQuantidade de Combustível: " + totalLiters + "\nTotal Final: "+ totalPrice);
+                }
+            }
+        }
+        else {
+            alert("Informe um tipo válido.");
+        }
+
+    </script>
+</html>
