@@ -4,8 +4,6 @@
 let value  = parseInt(prompt("Informe um número:"));
 let result = 0;
 
-for (let i = value; i > 0; i--) {
-    result += i;    
-}
+for (let i = value; i > 0; i--) { result += i; }
 
 console.log(result);

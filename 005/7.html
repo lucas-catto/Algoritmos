@@ -1,0 +1,31 @@
+<html>
+    <script>
+        
+        // 7) Escreva um programa que leia um número inteiro N pelo teclado e:
+        // a) indique se N é um número primo;
+        // b) imprima os números primos até N;
+        // c) imprima os N primeiros números primos.
+
+        let number = parseInt(prompt("Informe um número: "));
+
+        
+        if ((number % 2) != 0) { console.log("A - " + number + " é primo."); }
+
+        for (let i = 0; i < (number+1); i++) {
+            if ((i % 2) != 0) { console.log("B - " + i); }
+        }
+
+        let count = 0;
+
+        for (let i = 0; i < Infinity; i++) {
+            if ((i % 2) != 0) {
+                console.log("C - " + i);
+                count++;
+            }
+
+            if (count == number) { break; }
+        }
+
+
+    </script>
+</html>

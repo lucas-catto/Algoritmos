@@ -4,11 +4,7 @@
 let value = parseInt(prompt("Digite um número:"));
 let soma  = 0;
 
-for (let i = 0; i <= value ; i++){
-    if (i % 11 == 0){
-        soma += i;
-    }
-        
-
+for (let i = 0; i <= value ; i++) {
+    if (i % 11 == 0){ soma += i; }
 }
-alert(soma);
+console.log(soma);
