@@ -1,4 +1,3 @@
-
 //4) Faça um algoritmo que imprima a soma dos números multiplos de 11 em um intervalo digitado pelo usuário;
 
 let value = parseInt(prompt("Digite um número:"));
