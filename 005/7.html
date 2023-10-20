@@ -8,23 +8,22 @@
 
         let number = parseInt(prompt("Informe um número: "));
 
-        
-        if ((number % 2) != 0) { console.log("A - " + number + " é primo."); }
+        var cont = 0;
 
-        for (let i = 0; i < (number+1); i++) {
-            if ((i % 2) != 0) { console.log("B - " + i); }
-        }
-
-        let count = 0;
-
-        for (let i = 0; i < Infinity; i++) {
-            if ((i % 2) != 0) {
-                console.log("C - " + i);
-                count++;
+        for (let i = 1; i <= number; i++) {
+            if ((number % i) == 0) {
+                cont++;
             }
-
-            if (count == number) { break; }
         }
+
+        if (cont == 2) {
+            console.log("A - O número " + number + " é primo");
+        }
+        else {
+            console.log("A - O número " + number + " não é primo");
+        }
+        
+
 
 
     </script>
