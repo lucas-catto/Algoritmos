@@ -4,12 +4,10 @@
 
 let number;
 
-while (true) {
+while (number > 0) {
     number = parseInt(prompt("Informe um número (0 p/ parar): "));
 
     console.log("Dobro: "    + (number *  2));
-    console.log("Quadrado: " + (number *  number));
-    console.log("Cubo: "     + (number ** number));
-    
-    if (number == 0) { break; }
+    console.log("Quadrado: " + (number ** 2));
+    console.log("Cubo: "     + (number ** 3));
 }
