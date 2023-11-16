@@ -7,7 +7,7 @@ let impares = 0;
 
 for (let i = 0; i < 5; i++) {
 
-    numbers[i] = prompt(parseInt("Informe o " + i + "º número:"));
+    numbers[i] = parseInt(prompt("Informe o " + (i+1) + "º número:"));
 }
 
 for (let i = 0; i < numbers.length; i++) {

@@ -4,12 +4,12 @@
 let vetor = [];
 let sum   = 0;
 
-for (let i = 0; i < 6; i++) {
-    vetor[i] += prompt(parseInt("Informe o " + i + "º número:"));
+for (let i = 0; i <= 5; i++) {
+    vetor[i] = parseInt(prompt("Informe o " + (i+1) + "º número:"));
 }
 
-for (let i = 0; i < 3; i++) {
-    sum += vetor[i];
+for (let c = 0; c <= 2; c++) {
+    sum += vetor[c];
 }
 
 console.log(sum);
