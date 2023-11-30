@@ -1,0 +1,12 @@
+
+Lista de exercícios - Programação e Algoritmos
+Exercícios
+1)	[FOR] Faça um programa que mostre na tela a seguinte contagem: 
+6 – 7 – 8 - 9 - 10 - 11 Acabou!
+2)	[FOR] Faça um algoritmo que pergunte ao usuário um número inteiro e positivo e mostre uma contagem até esse valor, marcando com * (asterisco), os números que forem divisíveis por 4: 
+Exemplo: Digite um valor: 35
+Contagem: 1 2 3 *4 5 6 7 *8 ... *32 33 34 35 Acabou!
+
+3)	[ENQUANTO] Crie um programa que leia 6 números inteiros e no final mostre quantos deles são pares e quantos são ímpares.
+
+4)	[VETOR] Desenvolva um programa que leia 5 números inteiros e guarde-os em um vetor. No final, mostre quais são os números pares que foram digitados e em que posições (índice) eles estão armazenados.
