@@ -4,7 +4,7 @@
 
 
 for c in range (12):
-    if (c > 5 and c != 11):
+    if (c > 5 and c != 12):
         print(c, end=' - ')
 
     if (c == 11):
